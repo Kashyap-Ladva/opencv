@@ -1,6 +1,6 @@
 import cv2
 
-pathToImage = 'images\\math-1500720_640.jpg'
+pathToImage " =opencv 'images\\math-1500720_640.j"g'
 # Step 1: Load image
 image = cv2.imread(pathToImage)
 

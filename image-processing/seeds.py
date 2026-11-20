@@ -98,3 +98,14 @@ cv2.imshow("Masked Image", masked_image)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
+# # Save results
+# output_path = 'output'
+# if not os.path.exists(output_path):
+#     os.makedirs(output_path)   
+
+# cv2.imwrite(os.path.join(output_path, 'grayscale.jpg'), gray)
+# cv2.imwrite(os.path.join(output_path, 'edges.jpg'), edges)
+# cv2.imwrite(os.path.join(output_path, 'detected_contours.jpg'), output)
+# cv2.imwrite(os.path.join(output_path, 'mask.jpg'), mask)
+# cv2.imwrite(os.path.join(output_path, 'masked_image.jpg'), masked_image)
