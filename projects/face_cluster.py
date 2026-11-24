@@ -5,7 +5,7 @@ from deepface import DeepFace
 from sklearn.cluster import DBSCAN
 
 VIDEO_PATH = r"D:\opencv\videos\Footage.mp4"
-OUTPUT_FOLDER = "Face_Clustering"
+OUTPUT_FOLDER = r"D:\opencv\Face_Clustering"
 FRAME_INTERVAL = 1       # Read one frame every 1 second
 EPS = 0.30               # DBSCAN distance threshold
 MIN_SAMPLES = 2
